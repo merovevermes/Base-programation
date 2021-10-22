@@ -150,48 +150,48 @@ if ((conditiona >= 1 && conditionb>=1 && conditionc>=1 && conditiond==0) && (b>=
         std::cout<<"invalide"<<std::endl;
     }
 }
-
-void TP3::exercice42(){
-    srand(time(NULL));
-    char s[10];
-    int nb_essaies=0;
-    bool OK=false;
-    char symbols[10]={'!','$','?','&','/',')','(','+','-','='};
-    while (!OK and nb_essaies<=10) {
-        int taille=rand()%6+5;
-        for (int i =0; i<taille; i++) {
-            int d=rand() % 3 +1;
-            if (d==1)
-                s[i]=rand()%('Z'-'a'+1)+'a';
-           
-            if(d==2)
-                s[i]=rand()%('Z'-'A'+1)+'A';
-            
-        
-            if(d==3)
-                s[i]=rand()%('9'-0+1)+'0';}
-        s[taille]='\0';
-        nb_essaies++;
-        }
-    char cs=symbols[rand()%10];
-    std::cout<<"Entrez la chaine ";
-    for (int a=0;a<10;a++)
-         std::cout<<s[a];
-    std::cout<<" separrée par "<<cs<<std::endl;
-//    validation a faire
-    int caracatere=rand()%10,valide=0;
-    char saisie;
-    std::cin>>saisie;
-    for (int i=0; i<10; i++) {
-        if (saisie[i]==s[s]) {
-            valide++;
-        }
-    }
-    if (valide==10) {
-        std::cout<<"les deux mots sont identique";
-    }
-       
-        
-    }
-
+//
+//void TP3::exercice42(){
+//    srand(time(NULL));
+//    char s[10];
+//    int nb_essaies=0;
+//    bool OK=false;
+//    char symbols[10]={'!','$','?','&','/',')','(','+','-','='};
+//    while (!OK and nb_essaies<=10) {
+//        int taille=rand()%6+5;
+//        for (int i =0; i<taille; i++) {
+//            int d=rand() % 3 +1;
+//            if (d==1)
+//                s[i]=rand()%('Z'-'a'+1)+'a';
+//           
+//            if(d==2)
+//                s[i]=rand()%('Z'-'A'+1)+'A';
+//            
+//        
+//            if(d==3)
+//                s[i]=rand()%('9'-0+1)+'0';}
+//        s[taille]='\0';
+//        nb_essaies++;
+//        }
+//    char cs=symbols[rand()%10];
+//    std::cout<<"Entrez la chaine ";
+//    for (int a=0;a<10;a++)
+//         std::cout<<s[a];
+//    std::cout<<" separrée par "<<cs<<std::endl;
+////    validation a faire
+//    int caracatere=rand()%10,valide=0;
+//    char saisie;
+//    std::cin>>saisie;
+//    for (int i=0; i<10; i++) {
+//        if (saisie[i]==s[s]) {
+//            valide++;
+//        }
+//    }
+//    if (valide==10) {
+//        std::cout<<"les deux mots sont identique";
+//    }
+//       
+//        
+//    }
+//
 

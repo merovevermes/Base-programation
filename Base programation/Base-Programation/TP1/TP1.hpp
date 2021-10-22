@@ -11,8 +11,6 @@
 #include <stdio.h>
 
 class TP1{
-    
-    
     public:
         void exercice1();
         void exercice2();
@@ -22,7 +20,9 @@ class TP1{
         void exercice6();
         void exercice7();
         void exercice8();
-        void exercice9();};
+        void exercice9();
+    
+};
 
 
 
