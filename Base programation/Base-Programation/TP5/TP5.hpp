@@ -9,7 +9,7 @@
 #define TP5_hpp
 
 #include <stdio.h>
-#include "../Structure.h"
+#include "../Structure.hpp"
 
 
 class TP5{

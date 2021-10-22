@@ -11,7 +11,7 @@
 #include "TP3/TP3.hpp"
 #include "TP4/TP4.hpp"
 #include "TP5/TP5.hpp"
-#include "Structure.h"
+#include "Structure.hpp"
 
 
 

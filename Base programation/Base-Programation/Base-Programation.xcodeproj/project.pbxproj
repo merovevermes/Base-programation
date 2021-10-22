@@ -42,7 +42,7 @@
 		96E24B2927203F330070E6C7 /* TP3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TP3.hpp; sourceTree = "<group>"; };
 		96E24B2F2722EDC90070E6C7 /* TP5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TP5.cpp; sourceTree = "<group>"; };
 		96E24B302722EDC90070E6C7 /* TP5.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TP5.hpp; sourceTree = "<group>"; };
-		96E24B322722FEDC0070E6C7 /* Structure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Structure.h; sourceTree = "<group>"; };
+		96E24B322722FEDC0070E6C7 /* Structure.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Structure.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				9650A88B271F490000F66A7F /* main.cpp */,
-				96E24B322722FEDC0070E6C7 /* Structure.h */,
+				96E24B322722FEDC0070E6C7 /* Structure.hpp */,
 				96E24B1E271F49920070E6C7 /* TP1 */,
 				96E24B17271F49920070E6C7 /* TP2 */,
 				96E24B2D27203F880070E6C7 /* TP3 */,

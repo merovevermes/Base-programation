@@ -7,7 +7,7 @@
 
 #include "TP5.hpp"
 #include <iostream>
-#include "../Structure.h"
+#include "../Structure.hpp"
 #include <cstdlib>
 
 
