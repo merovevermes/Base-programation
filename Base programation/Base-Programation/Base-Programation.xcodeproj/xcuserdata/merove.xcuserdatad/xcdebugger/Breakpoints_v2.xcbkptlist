@@ -264,17 +264,50 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E5D85CFF-A8E0-4057-A56A-276C5D7E01DE"
-            shouldBeEnabled = "No"
+            uuid = "F78BADF0-CE35-424E-AB38-752FAC4DA9B4"
+            shouldBeEnabled = "Yes"
+            condition = "tableaux_tmp.size()!=2"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "main.cpp"
+            filePath = "TP6/TP6.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
             endingLineNumber = "37"
-            landmarkName = "main()"
-            landmarkType = "9">
+            landmarkName = "TP6::nombre_premier(start_nombre_premier, end_nombre_premier, test)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79D6DFFB-E30E-4AC9-935F-029AF0CF208E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TP6/TP6.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "TP6::est_premier(nombre_utilisateur)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8A79A1D-7514-4F6C-9F00-0E96CA812FC8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TP6/TP6.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "TP6::est_premier(nombre_utilisateur)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -46,3 +46,12 @@ void TP5::afficher(date tableaux_date[],int taille){
         std::cout<<tableaux_date[i].jour<<"/"<<tableaux_date[i].mois<<"/"<<tableaux_date[i].année<<std::endl;
     }
 }
+int TP5::appartient(date tableaux_date[],int taille, date date_utilisateur_3){
+    bool condition=false;
+    for (int rang=0; rang<taille; rang++) {
+        if(tableaux_date[rang].jour==date_utilisateur_3.jour && tableaux_date[rang].mois==date_utilisateur_3.mois && tableaux_date[rang].année==date_utilisateur_3.année){
+            condition=true;
+        }
+    }
+    return condition;
+}

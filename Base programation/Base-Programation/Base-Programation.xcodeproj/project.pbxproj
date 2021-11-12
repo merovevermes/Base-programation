@@ -13,6 +13,7 @@
 		96E24B2427203E850070E6C7 /* TP1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96E24B1F271F49920070E6C7 /* TP1.cpp */; };
 		96E24B2A27203F330070E6C7 /* TP3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96E24B2727203F330070E6C7 /* TP3.cpp */; };
 		96E24B312722EDC90070E6C7 /* TP5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96E24B2F2722EDC90070E6C7 /* TP5.cpp */; };
+		96E83E67273958BD00238A6E /* TP6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96E83E65273958BD00238A6E /* TP6.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		96E24B2F2722EDC90070E6C7 /* TP5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TP5.cpp; sourceTree = "<group>"; };
 		96E24B302722EDC90070E6C7 /* TP5.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TP5.hpp; sourceTree = "<group>"; };
 		96E24B322722FEDC0070E6C7 /* Structure.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Structure.hpp; sourceTree = "<group>"; };
+		96E83E65273958BD00238A6E /* TP6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TP6.cpp; sourceTree = "<group>"; };
+		96E83E66273958BD00238A6E /* TP6.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TP6.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 				96E24B2D27203F880070E6C7 /* TP3 */,
 				96E24B1B271F49920070E6C7 /* TP4 */,
 				96E24B2E2722EDB40070E6C7 /* TP5 */,
+				96E83E61273957E300238A6E /* TP6 */,
 				9670509A271F1F0D00180507 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,6 +127,15 @@
 				96E24B302722EDC90070E6C7 /* TP5.hpp */,
 			);
 			path = TP5;
+			sourceTree = "<group>";
+		};
+		96E83E61273957E300238A6E /* TP6 */ = {
+			isa = PBXGroup;
+			children = (
+				96E83E65273958BD00238A6E /* TP6.cpp */,
+				96E83E66273958BD00238A6E /* TP6.hpp */,
+			);
+			path = TP6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9650A88C271F490000F66A7F /* main.cpp in Sources */,
+				96E83E67273958BD00238A6E /* TP6.cpp in Sources */,
 				96E24B2427203E850070E6C7 /* TP1.cpp in Sources */,
 				96E24B2327203E820070E6C7 /* TP2.cpp in Sources */,
 				96E24B312722EDC90070E6C7 /* TP5.cpp in Sources */,
